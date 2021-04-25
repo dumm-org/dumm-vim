@@ -1,0 +1,22 @@
+# Aliases
+alias fucking="sudo"
+alias please="sudo"
+alias wtf="man"
+
+# brew install trash
+alias rm="trash"
+# brew install exa
+alias ls="exa"
+# brew install bat
+alias cat="bat"
+
+# ffs
+alias brwe="brew"
+
+# git
+alias gp="git push -u origin"
+alias gcm="git commit -m"
+alias ga="git add"
+alias gs="git status"
+alias gb="git branch"
+alias gpua='find . -type d -depth 1 -exec git --git-dir={}/.git --work-tree=${PWD}/{} pull origin master \;'

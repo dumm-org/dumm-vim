@@ -53,7 +53,9 @@ set guioptions-=r
 set guioptions-=R
 set guioptions-=l
 set guioptions-=L
+
 set whichwrap+=<,>,[,]
+set backspace=indent,eol,start
 
 set shiftwidth=4
 set expandtab

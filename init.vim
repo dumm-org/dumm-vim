@@ -30,16 +30,13 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 call plug#end()
 
-set encoding=UTF-8
 colorscheme onedark
+
+set encoding=UTF-8
 set background=dark
 set mouse=a
 set history=500
 set clipboard=unnamed
-set guioptions-=r
-set guioptions-=R
-set guioptions-=l
-set guioptions-=L
 set mousehide
 set hidden
 set splitbelow
@@ -47,13 +44,21 @@ set splitright
 set viewoptions=folds,options,cursor,unix,slash
 set cursorline
 set number relativenumber 
-set ignorecase
 set showmatch
-set nowrap
+set guioptions-=r
+set guioptions-=R
+set guioptions-=l
+set guioptions-=L
+set whichwrap+=<,>,[,]
+
 set shiftwidth=4
 set expandtab
 set tabstop=4
 set autoindent
+
+set hlsearch
+set incsearch
+set ignorecase
 
 let g:rainbow_active = 1
 
@@ -75,3 +80,18 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+let mapleader=","
+map <leader>h :noh<CR>
+map <C-e> :NERDTreeToggle<CR>
+noremap j gj
+noremap k gk
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+let g:SuperTabDefaultCompletionType = '<C-n>'
+
+" better key bindings for UltiSnipsExpandTrigger
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"

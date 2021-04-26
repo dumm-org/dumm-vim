@@ -30,7 +30,11 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 call plug#end()
 
-colorscheme onedark
+colorscheme alduin
+" colorscheme oceanic_material
+" colorscheme sierra
+" colorscheme sonokai
+" colorscheme lucid
 
 set encoding=UTF-8
 set background=dark
@@ -43,7 +47,7 @@ set splitbelow
 set splitright
 set viewoptions=folds,options,cursor,unix,slash
 set cursorline
-set number relativenumber 
+set number 
 set showmatch
 set guioptions-=r
 set guioptions-=R

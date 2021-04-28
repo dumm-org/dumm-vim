@@ -37,6 +37,8 @@ Plug 'easymotion/vim-easymotion'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 Plug 'gcmt/wildfire.vim'
 
+Plug 'ghifarit53/tokyonight-vim'
+
 " disabled
 " Plug 'Townk/vim-autoclose'
 

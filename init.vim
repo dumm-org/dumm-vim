@@ -37,6 +37,12 @@ Plug 'easymotion/vim-easymotion'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries', 'for': 'go' }
 Plug 'gcmt/wildfire.vim'
 
+Plug 'jiangmiao/auto-pairs'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'osyo-manga/vim-over'
+Plug 'kana/vim-textobj-user'
+Plug 'kana/vim-textobj-indent'
+
 Plug 'ghifarit53/tokyonight-vim'
 
 " disabled
@@ -119,6 +125,10 @@ let NERDTreeMouseMode=2
 let NERDTreeShowHidden=1
 let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
+
+let g:NERDCompactSexyComs = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDCommentEmptyLines = 1
 
 " ============================================================
 

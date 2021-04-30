@@ -46,8 +46,6 @@ call plug#end()
 
 " ============================================================
 
-set noesckeys
-
 " color / themes
 set termguicolors
 colorscheme tokyonight " oceanic_material sierra sonokai lucid

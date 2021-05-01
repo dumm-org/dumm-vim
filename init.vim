@@ -54,9 +54,9 @@ call plug#end()
 
 " color / themes
 set termguicolors
-colorscheme tokyonight " oceanic_material sierra sonokai lucid
+colorscheme gruvbox " tokyonight oceanic_material sierra sonokai lucid
 
-let g:airline_theme = "tokyonight" " minimalist
+let g:airline_theme = "gruvbox" "tokyonight minimalist
 let g:airline#extensions#tabline#enabled = 1
 
 let g:tokyonight_style = 'night' " available: night, storm

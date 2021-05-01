@@ -43,6 +43,8 @@ Plug 'osyo-manga/vim-over'
 Plug 'kana/vim-textobj-user'
 Plug 'kana/vim-textobj-indent'
 
+Plug 'christoomey/vim-tmux-navigator'
+
 Plug 'ghifarit53/tokyonight-vim'
 
 " disabled
